@@ -1,7 +1,9 @@
-const connection = require('./connection')
+const connection = require("./connection");
 
-function getLost(db = connection) {
-    return db('howToSeed').select().orderBy('id')
+function getInfo(db = connection) {
+  return db("howToSeed")
+    .select()
+    .orderBy("id");
 }
 
 // function getFound(db = connection) {
@@ -17,8 +19,8 @@ function getLost(db = connection) {
 // }
 
 module.exports = {
-    getLost,
-    // getFound,
-    // createFound,
-    // createLost,
-}
+  getInfo
+  // getFound,
+  // createFound,
+  // createLost,
+};

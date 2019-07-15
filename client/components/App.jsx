@@ -4,11 +4,11 @@ import { connect } from "react-redux";
 import Login from "./Login";
 import Register from "./Register";
 import Nav from "./Nav";
-import Lostandfound from "./Lostandfound";
-import AddFound from "./AddFound";
-import AddLost from "./AddLost";
 import Home from "./Home";
 import About from "./About";
+// import Lostandfound from "./Lostandfound";
+// import AddFound from "./AddFound";
+// import AddLost from "./AddLost";
 
 export function App({ auth }) {
   return (

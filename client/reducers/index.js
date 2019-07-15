@@ -1,10 +1,10 @@
-import {combineReducers} from 'redux'
+import { combineReducers } from "redux";
 
-import auth from './auth'
+import auth from "./auth";
 
-import animals from './animals'
+import information from "./information";
 
 export default combineReducers({
   auth,
-  animals
-})
+  information
+});

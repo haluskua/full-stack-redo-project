@@ -1,7 +1,5 @@
-import request from 'superagent'
+import request from "superagent";
 
-export function getFound() {
-  return request
-      .get('/api/information')
-      .then(res => res.body)
+export function getInfo() {
+  return request.get("/api/information").then(res => res.body);
 }
